@@ -1,0 +1,122 @@
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 250px;
+  padding-top: 10px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translateY(-35px);
+}
+
+.branding {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+}
+
+.branding-name {
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+nav ul li a {
+  font-size: 38px;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+nav ul li {
+  transform: translateY(20px);
+}
+
+.branding-header {
+  background-color: #333;
+  color: white;
+  height: 130px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.branding-footer {
+  background-color: #333;
+  margin-top: 190px;
+  color: white;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blues {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+main div ul li a {
+  text-decoration: none;
+}
+
+main div ul {
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+  max-width: 400px;
+}
+
+main div h2 {
+  margin: 0 auto;
+
+  max-width: 135px;
+}
+
+.forma {
+  margin: 0 21%;
+}
+table {
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+table thead {
+  font-size: 40px;
+}
+
+form label {
+  display: flex;
+  gap: 35px;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+
+.chet {
+  background-color: rgba(252, 11, 11, 0.5);
+}
+
+.nechet {
+  background-color: rgba(24, 24, 162, 0.5);
+}
+
+.blues,
+table,
+form {
+  max-width: 960px;
+  margin: 20px auto; /* верхний и нижний отступы + центровка по горизонтали */
+  box-sizing: border-box;
+}
+
+#keklol {
+  margin-left: 80px;
+  padding-top: 15px;
+  font-size: 45px;
+}
